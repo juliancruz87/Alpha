@@ -1,3 +1,9 @@
 UnityProject/Alpha/Library
 UnityProject/Alpha/Temp
 UnityProject/Alpha/Logs
+UnityProject/Kart/kart/Library
+UnityProject/Kart/kart/Logs
+UnityProject/Kart/kart/obj/Debug
+*.csproj
+UnityProject/Kart/kart/.vs
+*.sln
