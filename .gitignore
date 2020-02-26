@@ -7,3 +7,7 @@ UnityProject/Kart/kart/obj/Debug
 *.csproj
 UnityProject/Kart/kart/.vs
 *.sln
+AndroidProject/.gradle
+AndroidProject/.idea
+AndroidProject/launcher/build
+AndroidProject/unityLibrary/build
