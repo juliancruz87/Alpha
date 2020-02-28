@@ -19,8 +19,10 @@ public class Menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_TrackManager.CanEndRace() && !menu.activeSelf) 
-            menu.SetActive(true);
+        if (m_TrackManager.CanEndRace() && 
+            !menu.activeSelf && 
+            !m_TrackManager.IsRaceRunning) 
+                menu.SetActive(true);
     }
 
     public void QuitGame() 
